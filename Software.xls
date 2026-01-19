@@ -1,0 +1,21 @@
+分析内容	软件名称	版本	参数
+【重复序列注释】重复序列同源预测	RepeatMasker	4.1.2	-nolow -no_is -norna -parallel 2
+【重复序列注释】重复序列同源预测	RepeatProteinMask	Revision 1.36	-engine ncbi -noLowSimple -pvalue 0.0001
+【重复序列注释】重复序列从头预测	LTR-FINDER	1.0.7	-w 2 -C
+【重复序列注释】重复序列从头预测	RepeatModeler	2.0.1	default
+【重复序列注释】串联重复序列预测	Trf	4.09.1	2 7 7 80 10 50 2000 -d -h
+【基因注释】同源比对	BLAST	2.11.0+	-evalue 1e-05
+【基因注释】同源预测基因结构	Exonerate	2.4.0	--model protein2genome
+【基因注释】转录组denovo组装	Trinity	2.8.5	default
+【基因注释】转录组比对	HISAT2	2.2.1	default
+【基因注释】转录组组装	StringTie	2.1.7	default
+【基因注释】denovo预测基因结构	Augustus	3.4.0	--noInFrameStop=true --strand=both
+【基因注释】denovo预测基因结构	Genscan	1.0	default
+【基因注释】整合基因结构注释	MAKER	3.01.03	default
+【基因注释】转录本注释、更新基因结构	PASA	2.4.1	default
+【基因注释】蛋白比对	diamond	2.0.7	-c 1 -f 5 -e 1e-5 --very-sensitive -k 10
+【基因注释】InterProScan注释	InterProScan	5.50-84.0	--applications Pfam
+【ncRNA注释】tRNA注释	tRNAscan-SE	2.0.9	default
+【ncRNA注释】rRNA注释	RNAmmer	1.2	-S euk -multi -m lsu,ssu,tsu
+【ncRNA注释】miRNA和snRNA注释	infernal	1.1.4	default
+【注释评估】BUSCO评估	BUSCO	5.2.2	基因组：-m genome；蛋白：-m proteins
