@@ -14,13 +14,6 @@ The genome was assembled using a combination of **PacBio HiFi** long reads and *
 * `quality_statistics.dat.txt`: Detailed statistics evaluating the quality, contiguity, and completeness of the genome assembly.
 * `whfs-xs-242144_Emberiza_tristrami.order`: The Hi-C scaffolding order file used for anchoring contigs.
 
-## 🧬 Data Availability
-
-The genomic data generated in this project is publicly available at NCBI:
-* **BioProject:** [PRJNA1279591](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1279591)
-* **Genome Assembly (GCA Accession):** [GCA_056459205.1](https://identifiers.org/ncbi/insdc.gca:GCA_056459205.1)
-* **Raw Sequencing Data (SRA):** [SRP598870](https://identifiers.org/ncbi/insdc.sra:SRP598870)
-
 ## ✉️ Contact
 For any questions regarding the genome assembly or data, please contact:
 * Baowei Zhang (zhangbw@ahu.edu.cn)
